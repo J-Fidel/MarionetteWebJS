@@ -10,16 +10,17 @@
 
 <body>
     <div id="main">
+        <h1>Dollcode Encoder / Decoder</h1>
         <div>
             <label for="inputText">Input:</label>
             <input type="text" id="inputText">
-        </div>
+        </div><br>
         <div>
-            <button id="encodeButton">Encode</button>
-            <button id="decodeButton">Decode</button>
-        </div>
+            <button id="encodeButton">ENCODE</button>
+            <button id="decodeButton">DECODE</button>
+        </div><br>
         <div>
-            <label for="modeSelect">Switch modes:</label>
+            <label for="modeSelect">Select mode:</label>
             <select id="modeSelect">
                 <option value="d">Decimal</option>
                 <option value="h">Hex</option>
@@ -27,11 +28,9 @@
                 <option value="s">String</option>
                 <option value="l">Output type</option>
             </select>
-        </div>
-        <div>
-            <p id="modebox"></p>
-        </div>
+        </div><br>
         <div class="outputdiv">
+            <i>Output:</i>
             <p id="output">Waiting for input...</p>
         </div>
     </div>
