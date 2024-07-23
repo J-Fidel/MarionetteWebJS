@@ -1,33 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marionette Encoder/Decoder</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div>
-        <label for="inputText">Input:</label>
-        <input type="text" id="inputText">
-    </div>
-    <div>
-        <button id="encodeButton">Encode</button>
-        <button id="decodeButton">Decode</button>
-    </div>
-    <div>
-        <label for="modeSelect">Switch modes:</label>
-        <select id="modeSelect">
-            <option value="d">Decimal</option>
-            <option value="h">Hex</option>
-            <option value="c">Char</option>
-            <option value="s">String</option>
-            <option value="l">Output type</option>
-        </select>
-    </div>
-    <div>
-        <p id="output"></p>
+    <div id="main">
+        <div>
+            <label for="inputText">Input:</label>
+            <input type="text" id="inputText">
+        </div>
+        <div>
+            <button id="encodeButton">Encode</button>
+            <button id="decodeButton">Decode</button>
+        </div>
+        <div>
+            <label for="modeSelect">Switch modes:</label>
+            <select id="modeSelect">
+                <option value="d">Decimal</option>
+                <option value="h">Hex</option>
+                <option value="c">Char</option>
+                <option value="s">String</option>
+                <option value="l">Output type</option>
+            </select>
+        </div>
+        <div>
+            <p id="modebox"></p>
+        </div>
+        <div class="outputdiv">
+            <p id="output">Waiting for input...</p>
+        </div>
     </div>
     <script src="marionette.js"></script>
     <script src="app.js"></script>
 </body>
+
 </html>

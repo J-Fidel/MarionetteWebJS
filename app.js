@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         const mode = modeSelect.value;
         doll.switchMode('e', mode);
         doll.switchMode('d', mode);
-        output.textContent = `Modes set to: ${mode}`;
+        modebox.textContent = `Mode set to: ${mode}`;
     };
 
     // Event listener for mode change
