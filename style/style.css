@@ -41,6 +41,8 @@ hr {
     background-color: var(--dark3);
     max-width:fit-content;
     padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     border: 2px inset var(--matrixgreen);
     font-size: 2em;
     line-height: 1.5em;
