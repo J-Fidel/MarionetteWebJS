@@ -37,22 +37,22 @@ hr {
 }
 
 #output {
-    color: black;
-    background-color: var(--light);
+    color: white;
+    background-color: var(--dark3);
     max-width:fit-content;
     padding: 5px;
     border: 2px inset var(--matrixgreen);
     font-size: 2em;
-    line-height: 1.3em;
+    line-height: 1.5em;
 }
 
 input[type="text"] {
-    background-color: var(--blackground);
+    background-color: var(--dark3);
     color: white;
     font-family: monospace;
     font-size: 1.25em;
     border: 2px inset var(--matrixgreen);
-    width: 50ch;
+    width: 35ch;
     caret-color: var(--matrixgreen);
 }
 
@@ -85,8 +85,13 @@ input[type="text"] {
 select {
     background-color: var(--blackground);
     color: var(--matrixgreen);
+    font-family: monospace;
 }
 
 img {
     margin-right: 10px;
+}
+
+a {
+    color: gray;
 }

@@ -27,23 +27,25 @@
             <input type="text" id="inputText">
         </div><br>
         <div>
+            <i>Select mode:</i>
             <button id="encodeButton">ENCODE</button>
             <button id="decodeButton">DECODE</button>
-        </div><br>
+        </div>
         <div>
-            <label for="modeSelect">Select mode:</label>
+            <p>Current mode: <span id="currentmode">ENCODING</span></p>
+            <label for="modeSelect">Select type:</label>
             <select id="modeSelect">
                 <option value="d">Decimal</option>
                 <option value="h">Hex</option>
                 <option value="c">Char</option>
-                <option value="s">String</option>
+                <option selected="selected" value="s">String</option>
             </select>
         </div><br>
         <div class="outputdiv">
             <i>Output:</i>
             <p id="output">Waiting for input...</p>
         </div>
-        <i><a href="https://noe.sh/dollcode/" style="color: gray;" target="_blank">What is this?</a></i>
+        <i><a href="https://noe.sh/dollcode/" target="_blank">What is this?</a></i>
         <hr>
     </div><br>
     <img src="images/cd.png"><img src="images/vl.png"><a href="http://kabalabax.ddns.net:12987" target="_blank"><img src="images/kerbalbutton.gif"></a>
