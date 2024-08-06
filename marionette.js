@@ -1,3 +1,5 @@
+// Basically directly from python to JS... probably could be done better
+
 class Marionette {
     constructor() {
         this.charmap = ["▌", "▖", "▘"];
