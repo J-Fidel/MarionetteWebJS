@@ -9,9 +9,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     const modeidentifier = document.getElementById('currentmode');
 
-    let currentMode = 'encode'; // Initialize the current mode
+    let currentMode = 'encode'; // Initialize in encoder mode
 
-    // Function to update modes
+    // Switch modes
     const updateModes = () => {
         const mode = modeSelect.value;
         doll.switchMode('e', mode);
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     // Event listener for mode change
     modeSelect.addEventListener('change', updateModes);
 
-    // Event listener for text input
+    // Event listener for text input... live typing translation!
     inputText.addEventListener('input', () => {
         const text = inputText.value;
         if (currentMode === 'encode') {
